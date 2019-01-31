@@ -1,0 +1,75 @@
+body {
+  background: white;
+  margin: 0;
+  font-family: Ubuntu, Arial, sans-serif;
+  line-height: 1.42;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  width: 100%;
+  min-width: 940px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section  {
+  height: 100vh;
+  min-height: 650px;
+  
+  &__centered {
+    .title {
+      width: 100%;
+      text-align: center;
+    }
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}

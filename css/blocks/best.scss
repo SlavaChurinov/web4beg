@@ -1,0 +1,44 @@
+.best {
+  background: url("../img/bg/bg.png") center center / cover;
+  position: relative;
+}
+
+.best__list {
+  display: flex;
+  align-items: baseline;
+}
+
+.best__item {
+  flex: 1;
+  margin-right: 15px;
+  text-align: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.best__image {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.best__desc {
+  
+}
+
+.best__best-title {
+  margin-bottom: 15px;
+  font-family: Lifehack-Medium;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.6px;
+  color: $black;
+}
+
+.best__best-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  color: rgba(47, 50, 52, 0.8);
+}
