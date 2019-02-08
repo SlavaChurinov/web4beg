@@ -1,5 +1,5 @@
 .best {
-  background: url("../img/bg/bg.png") center center / cover;
+  background: url("../images/bg/bg.png") center center / cover;
   position: relative;
 }
 
@@ -16,6 +16,7 @@
   &:last-child {
     margin-right: 0;
   }
+
 }
 
 .best__image {
@@ -23,11 +24,8 @@
   margin-bottom: 25px;
 }
 
-.best__desc {
-  
-}
 
-.best__best-title {
+h3 {
   margin-bottom: 15px;
   font-family: Lifehack-Medium;
   font-size: 24px;
@@ -36,7 +34,7 @@
   color: $black;
 }
 
-.best__best-text {
+.best__item p {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.71;
