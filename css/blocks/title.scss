@@ -1,12 +1,16 @@
 .title {
-  font-size: 72px;
   color: $yellow;
+	font-size: rem(72px);
   font-family: 'Gagalin-Regular';
   line-height: 1.1;
-  margin-bottom: 20px;
-  }
+  margin-bottom: rem(12px);
 
-  .title__black {
-    color: $black;
-    margin-bottom: 45px;
-  }
+
+	&.title_black {
+		color: $black;
+	}
+
+	&.title_white {
+		color: white;
+	}
+}
